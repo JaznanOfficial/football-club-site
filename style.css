@@ -10,7 +10,9 @@
     transition: background-color 3s;
 }
 
-
+.first-section:hover{
+    background-color: rgba(205, 92, 120, 0.753);
+}
 
 
 header{
