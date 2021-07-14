@@ -1,69 +1,172 @@
 /* start body style */
 * {
-    margin: 0;
-    padding: 0;
-    
+    /* margin: 0; */
+    /* padding: 0; */
 }
 /* end body style */
 
-
-
-
-
 /* start first section style */
-.first-section{
-    width: 100%; 
+.first-section {
+    width: 100%;
     /* 1440px */
     height: 677px;
-    background-color:#2D25A0;
+    background-color: #2d25a0;
+    margin-bottom: 55px;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: row;
 }
 
-
-.left-div{
+.left-div {
     margin: 207px 50px 169px 158px;
-    padding:0px;
+    padding: 0px;
     width: 485px;
 }
 
-.right-div{
+.right-div {
     margin: 153px 140px 86px 52px;
-    padding:0px;
+    padding: 0px;
 }
 
-header .left-div h1{
-    font-family: 'Ubuntu', sans-serif;
+header .left-div h1 {
+    font-family: "Ubuntu", sans-serif;
     color: white;
     font-size: 60px;
     line-height: 80px;
     margin-bottom: 37px;
 }
 
-
-header img{
+header img {
     width: 556px;
     height: 440px;
-    
 }
 
-
-
-header .left-div a{
-    background-color:#E02C6D;
+header .left-div a {
+    background-color: #e02c6d;
     color: white;
     width: 168px;
     height: 44px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     font-weight: 500;
     padding: 10px 24px;
     text-decoration: none;
 }
-
 /* end first section style */
+
+/* start second section style */
+.second-section {
+}
+
+main{
+    margin: 0px 210px 80px 180px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.card {
+    /* margin: 15px; */
+    padding-bottom: 30px;
+    width: 330px;
+    height: 475px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+
+}
+
+.card-img img {
+    width: 300px;
+    height: 256px;
+    margin: 15px;
+}
+
+.card-details {
+    margin: 0 15px 33px 15px;
+    /* text-align: justify; */
+}
+
+.card-details h2{
+    margin: 15px 0 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.card-details p{
+    margin: 5px 0;
+    text-align: justify;
+}
+
+/* end second section style */
+
+
+
+
+
+
+/* start footer section */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-footer img{
+    width: 483.87px;
+    height: 110px;
+    margin: 80px 0 10px 0;
+}
+
+
+.middle-footer{
+    margin: 10px 0;
+}
+
+.middle-footer i{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: #E7E7E8;
+    color:#949494;
+    padding: 5px;
+    font-size: 25px;
+    margin: 0 7px;
+    padding: 8px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+
+.bottom-footer{
+    margin: 10px 0;
+}
+
+.bottom-footer span{
+    color: tomato;
+}
+
+
+.bottom-footer h2{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* end footer section */
