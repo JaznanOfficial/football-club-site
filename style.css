@@ -1,11 +1,3 @@
-/* heading font */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-
-
-
-
-
-
 /* start body style */
 * {
     margin: 0;
@@ -28,19 +20,27 @@
 
 header{
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
 }
 
 
 .left-div{
-    margin: 207px 50px 240px 158px;
+    margin: 207px 50px 169px 158px;
+    padding:0px;
+    width: 485px;
 }
 
-
+.right-div{
+    margin: 153px 140px 86px 52px;
+    padding:0px;
+}
 
 header .left-div h1{
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 80px;
     margin-bottom: 37px;
 }
@@ -49,7 +49,7 @@ header .left-div h1{
 header img{
     width: 556px;
     height: 440px;
-    margin: 153px 140px 86px 52px;
+    
 }
 
 
