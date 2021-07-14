@@ -12,9 +12,16 @@
     height: 677px;
     background-color: #2d25a0;
     margin-bottom: 55px;
+    transition: background-color 3s;
 }
 
-header {
+.first-section:hover{
+    background-color: palevioletred;
+}
+
+
+
+header{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -23,7 +30,7 @@ header {
 
 .left-div {
     margin: 207px 50px 169px 158px;
-    padding: 0px;
+    padding: 1px;
     width: 485px;
 }
 
@@ -35,27 +42,30 @@ header {
 header .left-div h1 {
     font-family: "Ubuntu", sans-serif;
     color: white;
-    font-size: 60px;
-    line-height: 80px;
-    margin-bottom: 37px;
-}
-
-header img {
-    width: 556px;
-    height: 440px;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 27px;
 }
 
 header .left-div a {
     background-color: #e02c6d;
     color: white;
     width: 168px;
-    height: 44px;
     font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
-    padding: 10px 24px;
+    padding: 9px 24px;
     text-decoration: none;
 }
+
+
+
+header img {
+    width: 556px;
+    height: 440px;
+}
+
+
 /* end first section style */
 
 /* start second section style */
